@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+<link href="_css/estilo.css" rel="stylesheet">
+<title>Aula 08 - Mini Formulario</title>
+<style>
+label{
+	display:block;
+	margin-bottom:10px;
+}
+</style>
+</head>
+<body>
+<div>	
+<h1> Mini Formulario</h1>
+
+<form method="get" action="http://xx/scripts/aula08-ex3.php">
+<p>
+<label>Texto
+<input type="text" name="no">
+</label>
+</p>
+<p>
+<label>Tamanho
+<select name="tam">
+<option value="8px">8</option>
+<option value="8px">10</option>
+<option value="8px">14</option>
+<option value="8px" selected>16</option>
+<option value="8px">26</option>
+<option value="8px">36</option>
+</select><br>
+</label>
+</p>
+<label>Cor
+<input type="color" name="cor">
+</label>
+<input type="submit" value="Enviar">
+</form>
+</div>
+</body>
+</html>
