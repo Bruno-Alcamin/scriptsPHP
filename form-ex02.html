@@ -1,0 +1,43 @@
+!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+<link href="_css/estilo.css" rel="stylesheet">
+<title>Aula 08 - Mini Formulario</title>
+<style>
+fieldset{
+	width:25%;
+	margin-bottom:20px;
+}
+</style>
+</head>
+<body>
+<div>	
+<h1> Mini Formulario</h1>
+
+<form method="get" action="http://127.0.0.1:8080/scripts/aula08-ex2.php">
+<p>
+<label>Nome
+<input type="text" name="no">
+</label>
+</p>
+<p>
+<label>Data de Nascimento
+<input type="date" name="dt">
+</label>
+</p>
+<fieldset>
+<legend>Sexo</legend>
+<label>
+<input type="radio" name="sex" value="Masculino">Masculino</label>
+<label>
+<input type="radio" name="sex" value="Feminino">Feminino</label>
+</fieldset>
+<input type="submit" value="Enviar">
+</form>
+</div>
+</body>
+</html>
