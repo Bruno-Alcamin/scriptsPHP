@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<link href="_css/estilo.css" rel="stylesheet">
+<meta charset="UTF-8">
+<title>Aula 13</title>
+</head>
+
+<body>
+<div>
+<h3>Curso de PHP – 13 – Estruturas de Repetição (Parte 3)</h3>
+
+<form method="get" action="aula13-ex03.php">
+	<label>Insira o numero
+		<input type="number" name="n">
+	</label>
+	<input type="submit" value="Verificar se é primo">
+</form>
+</div>
+</body>
+</html>
